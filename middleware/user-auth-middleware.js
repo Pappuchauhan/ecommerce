@@ -14,7 +14,7 @@ function userAuth(request, response, next) {
   } catch (error) {
     return next(new Error("invalid token"));
   }
-}
+} 
 
 function adminAuth(request, response, next) {
   try {
